@@ -8,7 +8,7 @@ print('Dan mulai berbelanja')
 # percabangan
 jumlah_botol_susu = 10
 jumlah_telur = 5
-print(f"jumlah_botol_susu : {jumlah_botol_susu} btl")
+print(f"jumlah_botol_susu : {jumlah_botol_susu} botol")
 if jumlah_botol_susu > 1:
     print("Budi mengecek harga")
     print("Budi membeli 1 botol susu")
