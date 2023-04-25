@@ -38,3 +38,28 @@ for i in range(0, len(daftar_buku)):
 print("tampilkan daftar buku baru")
 for i in range(0, len(daftar_buku_baru)):
     print(daftar_buku_baru[i])
+
+
+# mengcopy list yg ganjil
+daftar_buku = ['1 how to influence people', '2 habbit', '3 Muhammad AL fatih', '4 karimah']
+print("mengcopy  yang ganjil")
+daftar_buku_baru = daftar_buku[0::2]
+del daftar_buku[:]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+# mengcopy list yg genap
+daftar_buku = ['1 how to influence people', '2 habbit', '3 Muhammad AL fatih', '4 karimah']
+print("mengcopy  yang ganjil")
+daftar_buku_baru = daftar_buku[1::2]
+del daftar_buku[:]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+# mengcopy list buat yg di ujung kanan 2
+daftar_buku = ['1 how to influence people', '2 habbit', '3 Muhammad AL fatih', '4 karimah']
+print("mengcopy  yang ganjil")
+daftar_buku_baru = daftar_buku[0:-2]
+del daftar_buku[:]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
