@@ -29,7 +29,7 @@ print("Lat : ", users["address"]["geo"]["lat"] )
 print("Lng : ", users["address"]["geo"]["lng"])
 
 print(type(users))
-import
+import json
 print("cetak dengan json dump")
 result = json.dumps(users)
 print(result)
